@@ -5,7 +5,7 @@ function theBeatlesPlay(musicians, instruments){
     let player = musicians[i]
     let instrument = instruments[i]
     let string = `${player} plays ${instrument}`
-    result.push(string)
+    array.push(string)
   }
   return array
 }
@@ -17,7 +17,7 @@ function johnLennonFacts(factsArr){
     let oneFact = factsArr[i]
     oneFact += "!!!"
     i++
-    result.push(oneFact)
+    array.push(oneFact)
   }
   return array
 }
@@ -26,7 +26,7 @@ function iLoveTheBeatles(num){
   let array = []
   let i = num
   do {
-    result.push("I love the Beatles!")
+    array.push("I love the Beatles!")
     i++
   } while (i < 15)
   return array
